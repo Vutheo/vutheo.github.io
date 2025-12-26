@@ -2,16 +2,16 @@
     "version": "https://jsonfeed.org/version/1",
     "title": "Blog của Vũ Thị Thanh Thảo",
     "description": "",
-    "home_page_url": "https://vutheo/vutheo.github.io",
-    "feed_url": "https://vutheo/vutheo.github.io/feed.json",
+    "home_page_url": "https://vutheo.github.io",
+    "feed_url": "https://vutheo.github.io/feed.json",
     "user_comment": "",
     "author": {
         "name": "Vũ Thị Thanh Thảo"
     },
     "items": [
         {
-            "id": "https://vutheo/vutheo.github.io/tieu-de-hello-world-noi-dung-day-la-bai-dau-tien-cua-blog.html",
-            "url": "https://vutheo/vutheo.github.io/tieu-de-hello-world-noi-dung-day-la-bai-dau-tien-cua-blog.html",
+            "id": "https://vutheo.github.io/tieu-de-hello-world-noi-dung-day-la-bai-dau-tien-cua-blog.html",
+            "url": "https://vutheo.github.io/tieu-de-hello-world-noi-dung-day-la-bai-dau-tien-cua-blog.html",
             "title": "Tiêu đề: Hello World Nội dung: Đây là bài đầu tiên của blog.",
             "author": {
                 "name": "Vũ Thị Thanh Thảo"

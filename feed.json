@@ -1,10 +1,11 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "Home ",
+    "title": "Blog của Vũ Thị Thanh Thảo",
     "description": "",
     "home_page_url": "https://vutheo.github.io",
     "feed_url": "https://vutheo.github.io/feed.json",
     "user_comment": "",
+    "icon": "https://vutheo.github.io/media/website/NETWORK-removebg-preview.png",
     "author": {
         "name": "Vũ Thị Thanh Thảo"
     },
@@ -15,14 +16,15 @@
             "title": "Module 9: Các đối tượng có sẵn",
             "summary": "Module 9: Các đối tượng có sẵn let now = new Date(); console.log(now); let text = \"Hello World\"; console.log(text.length); Giải&hellip;",
             "content_html": "<p><strong>Module 9: Các đối tượng có sẵn</strong></p>\n<pre><code>let now = new Date();\nconsole.log(now);\nlet text = \"Hello World\";\nconsole.log(text.length);\n</code></pre>\n<p><em>Giải thích:</em></p>\n<ul>\n<li>Date() tạo đối tượng thời gian</li>\n<li>String.length lấy độ dài chuỗi</li>\n</ul>",
+            "image": "https://vutheo.github.io/media/posts/24/asset-v1_FUNiXJSP101x_01-A_VN2020_T4typeassetblockjavascript-with-laptop-code.jpg",
             "author": {
                 "name": "Vũ Thị Thanh Thảo"
             },
             "tags": [
-                   "BLOG"
+                   "My blog"
             ],
             "date_published": "2025-12-27T22:00:10+07:00",
-            "date_modified": "2025-12-27T22:23:36+07:00"
+            "date_modified": "2025-12-28T01:46:58+07:00"
         },
         {
             "id": "https://vutheo.github.io/module-8-lop-va-lap-trinh-huong-lop-2.html",
@@ -30,14 +32,15 @@
             "title": "Module 8: Lớp và lập trình hướng lớp",
             "summary": "Module 8: Lớp và lập trình hướng lớp class Person { constructor(name, age){ this.name = name; this.age = age; }&hellip;",
             "content_html": "<p><strong>Module 8: Lớp và lập trình hướng lớp</strong></p>\n<pre><code>class Person {\n    constructor(name, age){\n        this.name = name;\n        this.age = age;\n    }\n    greet(){\n        console.log(\"Hello \" + this.name);\n    }\n}\nlet alice = new Person(\"Alice\", 25);\nalice.greet();\n</code></pre>\n<p><em>Giải thích:</em></p>\n<ul>\n<li>class tạo lớp đối tượng</li>\n<li>constructor khởi tạo</li>\n<li>method greet in ra lời chào</li>\n</ul>",
+            "image": "https://vutheo.github.io/media/posts/23/asset-v1_FUNiXJSP101x_01-A_VN2020_T4typeassetblockjavascript-with-laptop-code.jpg",
             "author": {
                 "name": "Vũ Thị Thanh Thảo"
             },
             "tags": [
-                   "BLOG"
+                   "My blog"
             ],
             "date_published": "2025-12-27T21:59:43+07:00",
-            "date_modified": "2025-12-27T22:23:31+07:00"
+            "date_modified": "2025-12-28T01:46:48+07:00"
         },
         {
             "id": "https://vutheo.github.io/module-7-doi-tuong-khong-lop-2.html",
@@ -45,14 +48,15 @@
             "title": "Module 7: Đối tượng không lớp",
             "summary": "Module 7: Đối tượng không lớp let person = { name: \"Alice\", age: 25 }; console.log(person.name); Giải thích: Tạo đối&hellip;",
             "content_html": "<p><strong>Module 7: Đối tượng không lớp</strong></p>\n<pre><code>let person = {\n    name: \"Alice\",\n    age: 25\n};\nconsole.log(person.name);\n</code></pre>\n<p><em>Giải thích:</em></p>\n<ul>\n<li>Tạo đối tượng literal bằng { }</li>\n<li>Truy cập thuộc tính bằng person.name</li>\n</ul>",
+            "image": "https://vutheo.github.io/media/posts/22/asset-v1_FUNiXJSP101x_01-A_VN2020_T4typeassetblockjavascript-with-laptop-code.jpg",
             "author": {
                 "name": "Vũ Thị Thanh Thảo"
             },
             "tags": [
-                   "BLOG"
+                   "My blog"
             ],
             "date_published": "2025-12-27T21:59:19+07:00",
-            "date_modified": "2025-12-27T22:23:26+07:00"
+            "date_modified": "2025-12-28T01:46:31+07:00"
         },
         {
             "id": "https://vutheo.github.io/module-6-loi-ngoai-le-go-loi-va-xu-ly-su-co-2.html",
@@ -60,14 +64,15 @@
             "title": "Module 6: Lỗi, ngoại lệ, gỡ lỗi và xử lý sự cố",
             "summary": "Module 6: Lỗi, ngoại lệ, gỡ lỗi và xử lý sự cố try{ let result = 10 / 0; console.log(result);&hellip;",
             "content_html": "<p><strong>Module 6: Lỗi, ngoại lệ, gỡ lỗi và xử lý sự cố</strong></p>\n<pre><code>try{\n    let result = 10 / 0;\n    console.log(result);\n} catch(error){\n    console.log(\"Có lỗi: \" + error);\n}\n</code></pre>\n<p><em>Giải thích:</em></p>\n<ul>\n<li>try...catch bắt lỗi runtime</li>\n<li>console.log thông báo lỗi</li>\n</ul>",
+            "image": "https://vutheo.github.io/media/posts/21/asset-v1_FUNiXJSP101x_01-A_VN2020_T4typeassetblockjavascript-with-laptop-code.jpg",
             "author": {
                 "name": "Vũ Thị Thanh Thảo"
             },
             "tags": [
-                   "BLOG"
+                   "My blog"
             ],
             "date_published": "2025-12-27T21:58:57+07:00",
-            "date_modified": "2025-12-27T22:23:15+07:00"
+            "date_modified": "2025-12-28T01:46:23+07:00"
         },
         {
             "id": "https://vutheo.github.io/module-5-ham-2.html",
@@ -75,14 +80,15 @@
             "title": "Module 5: Hàm",
             "summary": "Module 5: Hàm function greet(name){ return \"Hello, \" + name; } console.log(greet(\"Alice\")); Giải thích: function khai báo hàm return trả&hellip;",
             "content_html": "<p><strong>Module 5: Hàm</strong></p>\n<pre><code>function greet(name){\n    return \"Hello, \" + name;\n}\nconsole.log(greet(\"Alice\"));\n</code></pre>\n<p><em>Giải thích:</em></p>\n<ul>\n<li>function khai báo hàm</li>\n<li>return trả về giá trị</li>\n<li>console.log in ra kết quả</li>\n</ul>",
+            "image": "https://vutheo.github.io/media/posts/20/asset-v1_FUNiXJSP101x_01-A_VN2020_T4typeassetblockjavascript-with-laptop-code.jpg",
             "author": {
                 "name": "Vũ Thị Thanh Thảo"
             },
             "tags": [
-                   "BLOG"
+                   "My blog"
             ],
             "date_published": "2025-12-27T21:58:31+07:00",
-            "date_modified": "2025-12-27T22:23:06+07:00"
+            "date_modified": "2025-12-28T01:46:05+07:00"
         },
         {
             "id": "https://vutheo.github.io/module-4-luong-dieu-khien-cau-lenh-dieu-kien-va-vong-lap-2.html",
@@ -90,14 +96,15 @@
             "title": "Module 4: Luồng điều khiển – Câu lệnh điều kiện và vòng lặp",
             "summary": "Module 4: Luồng điều khiển – Câu lệnh điều kiện và vòng lặp let age = 18; if(age &gt;= 18){&hellip;",
             "content_html": "<p><strong>Module 4: Luồng điều khiển – Câu lệnh điều kiện và vòng lặp</strong></p>\n<pre><code>let age = 18;\nif(age &gt;= 18){\n    console.log(\"Bạn đủ tuổi.\");\n} else {\n    console.log(\"Bạn chưa đủ tuổi.\");\n}\n</code></pre>\n<p><em>Giải thích:</em></p>\n<ul>\n<li>if...else kiểm tra điều kiện</li>\n<li>Thực hiện nhánh tương ứng</li>\n</ul>\n<pre><code>for(let i=0; i&lt;5; i++){\n    console.log(i);\n}\n</code></pre>\n<p><em>Giải thích:</em></p>\n<ul>\n<li>for loop lặp từ 0 đến 4</li>\n</ul>",
+            "image": "https://vutheo.github.io/media/posts/19/asset-v1_FUNiXJSP101x_01-A_VN2020_T4typeassetblockjavascript-with-laptop-code.jpg",
             "author": {
                 "name": "Vũ Thị Thanh Thảo"
             },
             "tags": [
-                   "BLOG"
+                   "My blog"
             ],
             "date_published": "2025-12-27T21:52:15+07:00",
-            "date_modified": "2025-12-27T22:22:59+07:00"
+            "date_modified": "2025-12-28T01:45:52+07:00"
         },
         {
             "id": "https://vutheo.github.io/module-3-toan-tu-va-tuong-tac-voi-nguoi-dung-2.html",
@@ -105,14 +112,15 @@
             "title": "Module 3: Toán tử và tương tác với người dùng",
             "summary": "Module 3: Toán tử và tương tác với người dùng let x = 10; let y = 3; console.log(x +&hellip;",
             "content_html": "<p><strong>Module 3: Toán tử và tương tác với người dùng</strong></p>\n<pre><code>let x = 10;\nlet y = 3;\nconsole.log(x + y); // 13\nconsole.log(x % y); // 1 (chia lấy dư)\n</code></pre>\n<p><em>Giải thích:</em></p>\n<ul>\n<li>+, -, *, /, % là toán tử số học</li>\n</ul>\n<pre><code>// Nhập dữ liệu từ người dùng\nlet name = prompt(\"Nhập tên của bạn:\");\nalert(\"Chào \" + name + \"!\");\n</code></pre>\n<p><em>Giải thích:</em></p>\n<ul>\n<li>prompt() nhập dữ liệu</li>\n<li>alert() hiển thị thông báo</li>\n</ul>",
+            "image": "https://vutheo.github.io/media/posts/18/asset-v1_FUNiXJSP101x_01-A_VN2020_T4typeassetblockjavascript-with-laptop-code.jpg",
             "author": {
                 "name": "Vũ Thị Thanh Thảo"
             },
             "tags": [
-                   "BLOG"
+                   "My blog"
             ],
             "date_published": "2025-12-27T21:51:56+07:00",
-            "date_modified": "2025-12-27T22:22:39+07:00"
+            "date_modified": "2025-12-28T01:45:42+07:00"
         },
         {
             "id": "https://vutheo.github.io/module-2-bien-kieu-du-lieu-chuyen-kieu-va-chu-thich-2.html",
@@ -120,14 +128,15 @@
             "title": "Module 2: Biến, kiểu dữ liệu, chuyển kiểu và chú thích",
             "summary": "Module 2: Biến, kiểu dữ liệu, chuyển kiểu và chú thích // Khai báo các kiểu dữ liệu let age&hellip;",
             "content_html": "<p><strong>Module 2: Biến, kiểu dữ liệu, chuyển kiểu và chú thích</strong></p>\n<pre><code>// Khai báo các kiểu dữ liệu\nlet age = 20;          // Number\nlet name = \"Bob\";      // String\nlet isStudent = true;  // Boolean\n</code></pre>\n<p><em>Giải thích:</em></p>\n<ul>\n<li>Number, String, Boolean là các kiểu dữ liệu cơ bản.</li>\n<li>Biến được khai báo bằng <code>let</code>.</li>\n</ul>\n<pre><code>// Chuyển kiểu dữ liệu\nlet str = String(age);   // Number → String\nlet num = Number(\"123\"); // String → Number\n</code></pre>\n<p><em>Giải thích:</em></p>\n<ul>\n<li>Hàm <code>String()</code> và <code>Number()</code> chuyển đổi kiểu dữ liệu.</li>\n</ul>",
+            "image": "https://vutheo.github.io/media/posts/17/asset-v1_FUNiXJSP101x_01-A_VN2020_T4typeassetblockjavascript-with-laptop-code.jpg",
             "author": {
                 "name": "Vũ Thị Thanh Thảo"
             },
             "tags": [
-                   "BLOG"
+                   "My blog"
             ],
             "date_published": "2025-12-27T21:51:17+07:00",
-            "date_modified": "2025-12-27T22:22:35+07:00"
+            "date_modified": "2025-12-28T01:45:33+07:00"
         },
         {
             "id": "https://vutheo.github.io/module-1-gioi-thieu-javascript-va-lap-trinh-may-tinh-2.html",
@@ -135,14 +144,15 @@
             "title": "Module 1: Giới thiệu JavaScript và lập trình máy tính",
             "summary": "Module 1: Giới thiệu JavaScript và lập trình máy tính JavaScript là ngôn ngữ lập trình phổ biến trên web.",
             "content_html": "<p><strong>Module 1: Giới thiệu JavaScript và lập trình máy tính</strong></p>\n<p>JavaScript là ngôn ngữ lập trình phổ biến trên web. Ví dụ cơ bản:</p>\n<pre><code>// In ra lời chào\nconsole.log(\"Hello, World!\");\n</code></pre>\n<p><em>Giải thích:</em></p>\n<ul>\n<li><code>console.log()</code> in ra thông tin trên console trình duyệt.</li>\n<li>Chuỗi trong dấu ngoặc kép sẽ được hiển thị nguyên văn.</li>\n<li>Đây là cách bắt đầu học JavaScript.</li>\n</ul>\n<pre><code>let name = \"Alice\";  // khai báo biến\nconsole.log(\"Hello, \" + name);\n</code></pre>\n<p><em>Giải thích:</em></p>\n<ul>\n<li><code>let</code> khai báo biến</li>\n<li>Toán tử + nối chuỗi</li>\n<li>Kết quả: Hello, Alice</li>\n</ul>",
+            "image": "https://vutheo.github.io/media/posts/16/asset-v1_FUNiXJSP101x_01-A_VN2020_T4typeassetblockjavascript-with-laptop-code.jpg",
             "author": {
                 "name": "Vũ Thị Thanh Thảo"
             },
             "tags": [
-                   "BLOG"
+                   "My blog"
             ],
             "date_published": "2025-12-27T21:50:50+07:00",
-            "date_modified": "2025-12-27T22:27:50+07:00"
+            "date_modified": "2025-12-28T01:48:18+07:00"
         }
     ]
 }

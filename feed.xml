@@ -3,10 +3,336 @@
     <title>Home </title>
     <link href="https://vutheo.github.io/feed.xml" rel="self" />
     <link href="https://vutheo.github.io" />
-    <updated>1970-01-01T07:00:00+07:00</updated>
+    <updated>2025-12-27T22:27:50+07:00</updated>
     <author>
         <name>Vũ Thị Thanh Thảo</name>
     </author>
     <id>https://vutheo.github.io</id>
 
+    <entry>
+        <title>Module 9: Các đối tượng có sẵn</title>
+        <author>
+            <name>Vũ Thị Thanh Thảo</name>
+        </author>
+        <link href="https://vutheo.github.io/module-9-cac-doi-tuong-co-san-2.html"/>
+        <id>https://vutheo.github.io/module-9-cac-doi-tuong-co-san-2.html</id>
+            <category term="BLOG"/>
+
+        <updated>2025-12-27T22:00:10+07:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    Module 9: Các đối tượng có sẵn let now = new Date(); console.log(now); let text = "Hello World"; console.log(text.length); Giải&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><strong>Module 9: Các đối tượng có sẵn</strong></p>
+<pre><code>let now = new Date();
+console.log(now);
+let text = "Hello World";
+console.log(text.length);
+</code></pre>
+<p><em>Giải thích:</em></p>
+<ul>
+<li>Date() tạo đối tượng thời gian</li>
+<li>String.length lấy độ dài chuỗi</li>
+</ul>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Module 8: Lớp và lập trình hướng lớp</title>
+        <author>
+            <name>Vũ Thị Thanh Thảo</name>
+        </author>
+        <link href="https://vutheo.github.io/module-8-lop-va-lap-trinh-huong-lop-2.html"/>
+        <id>https://vutheo.github.io/module-8-lop-va-lap-trinh-huong-lop-2.html</id>
+            <category term="BLOG"/>
+
+        <updated>2025-12-27T21:59:43+07:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    Module 8: Lớp và lập trình hướng lớp class Person { constructor(name, age){ this.name = name; this.age = age; }&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><strong>Module 8: Lớp và lập trình hướng lớp</strong></p>
+<pre><code>class Person {
+    constructor(name, age){
+        this.name = name;
+        this.age = age;
+    }
+    greet(){
+        console.log("Hello " + this.name);
+    }
+}
+let alice = new Person("Alice", 25);
+alice.greet();
+</code></pre>
+<p><em>Giải thích:</em></p>
+<ul>
+<li>class tạo lớp đối tượng</li>
+<li>constructor khởi tạo</li>
+<li>method greet in ra lời chào</li>
+</ul>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Module 7: Đối tượng không lớp</title>
+        <author>
+            <name>Vũ Thị Thanh Thảo</name>
+        </author>
+        <link href="https://vutheo.github.io/module-7-doi-tuong-khong-lop-2.html"/>
+        <id>https://vutheo.github.io/module-7-doi-tuong-khong-lop-2.html</id>
+            <category term="BLOG"/>
+
+        <updated>2025-12-27T21:59:19+07:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    Module 7: Đối tượng không lớp let person = { name: "Alice", age: 25 }; console.log(person.name); Giải thích: Tạo đối&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><strong>Module 7: Đối tượng không lớp</strong></p>
+<pre><code>let person = {
+    name: "Alice",
+    age: 25
+};
+console.log(person.name);
+</code></pre>
+<p><em>Giải thích:</em></p>
+<ul>
+<li>Tạo đối tượng literal bằng { }</li>
+<li>Truy cập thuộc tính bằng person.name</li>
+</ul>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Module 6: Lỗi, ngoại lệ, gỡ lỗi và xử lý sự cố</title>
+        <author>
+            <name>Vũ Thị Thanh Thảo</name>
+        </author>
+        <link href="https://vutheo.github.io/module-6-loi-ngoai-le-go-loi-va-xu-ly-su-co-2.html"/>
+        <id>https://vutheo.github.io/module-6-loi-ngoai-le-go-loi-va-xu-ly-su-co-2.html</id>
+            <category term="BLOG"/>
+
+        <updated>2025-12-27T21:58:57+07:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    Module 6: Lỗi, ngoại lệ, gỡ lỗi và xử lý sự cố try{ let result = 10 / 0; console.log(result);&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><strong>Module 6: Lỗi, ngoại lệ, gỡ lỗi và xử lý sự cố</strong></p>
+<pre><code>try{
+    let result = 10 / 0;
+    console.log(result);
+} catch(error){
+    console.log("Có lỗi: " + error);
+}
+</code></pre>
+<p><em>Giải thích:</em></p>
+<ul>
+<li>try...catch bắt lỗi runtime</li>
+<li>console.log thông báo lỗi</li>
+</ul>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Module 5: Hàm</title>
+        <author>
+            <name>Vũ Thị Thanh Thảo</name>
+        </author>
+        <link href="https://vutheo.github.io/module-5-ham-2.html"/>
+        <id>https://vutheo.github.io/module-5-ham-2.html</id>
+            <category term="BLOG"/>
+
+        <updated>2025-12-27T21:58:31+07:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    Module 5: Hàm function greet(name){ return "Hello, " + name; } console.log(greet("Alice")); Giải thích: function khai báo hàm return trả&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><strong>Module 5: Hàm</strong></p>
+<pre><code>function greet(name){
+    return "Hello, " + name;
+}
+console.log(greet("Alice"));
+</code></pre>
+<p><em>Giải thích:</em></p>
+<ul>
+<li>function khai báo hàm</li>
+<li>return trả về giá trị</li>
+<li>console.log in ra kết quả</li>
+</ul>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Module 4: Luồng điều khiển – Câu lệnh điều kiện và vòng lặp</title>
+        <author>
+            <name>Vũ Thị Thanh Thảo</name>
+        </author>
+        <link href="https://vutheo.github.io/module-4-luong-dieu-khien-cau-lenh-dieu-kien-va-vong-lap-2.html"/>
+        <id>https://vutheo.github.io/module-4-luong-dieu-khien-cau-lenh-dieu-kien-va-vong-lap-2.html</id>
+            <category term="BLOG"/>
+
+        <updated>2025-12-27T21:52:15+07:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    Module 4: Luồng điều khiển – Câu lệnh điều kiện và vòng lặp let age = 18; if(age &gt;= 18){&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><strong>Module 4: Luồng điều khiển – Câu lệnh điều kiện và vòng lặp</strong></p>
+<pre><code>let age = 18;
+if(age &gt;= 18){
+    console.log("Bạn đủ tuổi.");
+} else {
+    console.log("Bạn chưa đủ tuổi.");
+}
+</code></pre>
+<p><em>Giải thích:</em></p>
+<ul>
+<li>if...else kiểm tra điều kiện</li>
+<li>Thực hiện nhánh tương ứng</li>
+</ul>
+<pre><code>for(let i=0; i&lt;5; i++){
+    console.log(i);
+}
+</code></pre>
+<p><em>Giải thích:</em></p>
+<ul>
+<li>for loop lặp từ 0 đến 4</li>
+</ul>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Module 3: Toán tử và tương tác với người dùng</title>
+        <author>
+            <name>Vũ Thị Thanh Thảo</name>
+        </author>
+        <link href="https://vutheo.github.io/module-3-toan-tu-va-tuong-tac-voi-nguoi-dung-2.html"/>
+        <id>https://vutheo.github.io/module-3-toan-tu-va-tuong-tac-voi-nguoi-dung-2.html</id>
+            <category term="BLOG"/>
+
+        <updated>2025-12-27T21:51:56+07:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    Module 3: Toán tử và tương tác với người dùng let x = 10; let y = 3; console.log(x +&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><strong>Module 3: Toán tử và tương tác với người dùng</strong></p>
+<pre><code>let x = 10;
+let y = 3;
+console.log(x + y); // 13
+console.log(x % y); // 1 (chia lấy dư)
+</code></pre>
+<p><em>Giải thích:</em></p>
+<ul>
+<li>+, -, *, /, % là toán tử số học</li>
+</ul>
+<pre><code>// Nhập dữ liệu từ người dùng
+let name = prompt("Nhập tên của bạn:");
+alert("Chào " + name + "!");
+</code></pre>
+<p><em>Giải thích:</em></p>
+<ul>
+<li>prompt() nhập dữ liệu</li>
+<li>alert() hiển thị thông báo</li>
+</ul>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Module 2: Biến, kiểu dữ liệu, chuyển kiểu và chú thích</title>
+        <author>
+            <name>Vũ Thị Thanh Thảo</name>
+        </author>
+        <link href="https://vutheo.github.io/module-2-bien-kieu-du-lieu-chuyen-kieu-va-chu-thich-2.html"/>
+        <id>https://vutheo.github.io/module-2-bien-kieu-du-lieu-chuyen-kieu-va-chu-thich-2.html</id>
+            <category term="BLOG"/>
+
+        <updated>2025-12-27T21:51:17+07:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    Module 2: Biến, kiểu dữ liệu, chuyển kiểu và chú thích // Khai báo các kiểu dữ liệu let age&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><strong>Module 2: Biến, kiểu dữ liệu, chuyển kiểu và chú thích</strong></p>
+<pre><code>// Khai báo các kiểu dữ liệu
+let age = 20;          // Number
+let name = "Bob";      // String
+let isStudent = true;  // Boolean
+</code></pre>
+<p><em>Giải thích:</em></p>
+<ul>
+<li>Number, String, Boolean là các kiểu dữ liệu cơ bản.</li>
+<li>Biến được khai báo bằng <code>let</code>.</li>
+</ul>
+<pre><code>// Chuyển kiểu dữ liệu
+let str = String(age);   // Number → String
+let num = Number("123"); // String → Number
+</code></pre>
+<p><em>Giải thích:</em></p>
+<ul>
+<li>Hàm <code>String()</code> và <code>Number()</code> chuyển đổi kiểu dữ liệu.</li>
+</ul>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Module 1: Giới thiệu JavaScript và lập trình máy tính</title>
+        <author>
+            <name>Vũ Thị Thanh Thảo</name>
+        </author>
+        <link href="https://vutheo.github.io/module-1-gioi-thieu-javascript-va-lap-trinh-may-tinh-2.html"/>
+        <id>https://vutheo.github.io/module-1-gioi-thieu-javascript-va-lap-trinh-may-tinh-2.html</id>
+            <category term="BLOG"/>
+
+        <updated>2025-12-27T21:50:50+07:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    Module 1: Giới thiệu JavaScript và lập trình máy tính JavaScript là ngôn ngữ lập trình phổ biến trên web.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><strong>Module 1: Giới thiệu JavaScript và lập trình máy tính</strong></p>
+<p>JavaScript là ngôn ngữ lập trình phổ biến trên web. Ví dụ cơ bản:</p>
+<pre><code>// In ra lời chào
+console.log("Hello, World!");
+</code></pre>
+<p><em>Giải thích:</em></p>
+<ul>
+<li><code>console.log()</code> in ra thông tin trên console trình duyệt.</li>
+<li>Chuỗi trong dấu ngoặc kép sẽ được hiển thị nguyên văn.</li>
+<li>Đây là cách bắt đầu học JavaScript.</li>
+</ul>
+<pre><code>let name = "Alice";  // khai báo biến
+console.log("Hello, " + name);
+</code></pre>
+<p><em>Giải thích:</em></p>
+<ul>
+<li><code>let</code> khai báo biến</li>
+<li>Toán tử + nối chuỗi</li>
+<li>Kết quả: Hello, Alice</li>
+</ul>
+            ]]>
+        </content>
+    </entry>
 </feed>

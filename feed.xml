@@ -3,22 +3,10 @@
     <title>✍️Blog</title>
     <link href="https://vutheo.github.io/feed.xml" rel="self" />
     <link href="https://vutheo.github.io" />
-    <updated>2025-12-27T00:45:18+07:00</updated>
+    <updated>1970-01-01T07:00:00+07:00</updated>
     <author>
         <name>Vũ Thị Thanh Thảo</name>
     </author>
     <id>https://vutheo.github.io</id>
 
-    <entry>
-        <title>Tiêu đề: Hello World Nội dung: Đây là bài đầu tiên của blog.</title>
-        <author>
-            <name>Vũ Thị Thanh Thảo</name>
-        </author>
-        <link href="https://vutheo.github.io/tieu-de-hello-world-noi-dung-day-la-bai-dau-tien-cua-blog.html"/>
-        <id>https://vutheo.github.io/tieu-de-hello-world-noi-dung-day-la-bai-dau-tien-cua-blog.html</id>
-
-        <updated>2025-12-27T00:45:18+07:00</updated>
-            <summary></summary>
-        <content></content>
-    </entry>
 </feed>

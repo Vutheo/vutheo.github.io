@@ -3,7 +3,7 @@
     <title>Blog lập trình mạng</title>
     <link href="https://vutheo.github.io/feed.xml" rel="self" />
     <link href="https://vutheo.github.io" />
-    <updated>2025-12-28T14:09:53+07:00</updated>
+    <updated>2025-12-30T00:47:47+07:00</updated>
     <author>
         <name>Vũ Thị Thanh Thảo</name>
     </author>
@@ -325,31 +325,59 @@ let num = Number("123"); // String → Number
             <summary type="html">
                 <![CDATA[
                         <img src="https://vutheo.github.io/media/posts/16/asset-v1_FUNiXJSP101x_01-A_VN2020_T4typeassetblockjavascript-with-laptop-code.jpg" alt="" />
-                    /JavaScript là ngôn ngữ lập trình phổ biến trên web. Ví dụ cơ bản: // In ra lời chào console.log("Hello,&hellip;
+                    JavaScript là một trong những ngôn ngữ lập trình phổ biến nhất trong thế giới web. Nếu bạn đã từng&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://vutheo.github.io/media/posts/16/asset-v1_FUNiXJSP101x_01-A_VN2020_T4typeassetblockjavascript-with-laptop-code.jpg" class="type:primaryImage" alt="" /></p>
-                <p>/JavaScript là ngôn ngữ lập trình phổ biến trên web. Ví dụ cơ bản:</p>
-<pre><code>// In ra lời chào
-console.log("Hello, World!");                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
-</code></pre>
-<p><em>Giải thích:</em></p>
+                <p>JavaScript là một trong những ngôn ngữ lập trình phổ biến nhất trong thế giới web. Nếu bạn đã từng mở một trang web và thấy hiệu ứng chuyển động, nút bấm hoạt động, popup xuất hiện… thì rất có thể JavaScript đang đứng sau điều đó.</p>
+<h2>1. Lập trình là gì?</h2>
+<p>Lập trình là quá trình viết ra các chỉ thị để máy tính thực hiện. Máy tính không tự suy nghĩ – nó chỉ làm đúng những gì bạn yêu cầu. Người lập trình giống như người hướng dẫn, còn code là ngôn ngữ giao tiếp giữa bạn và máy.</p>
+<h2>2. JavaScript dùng để làm gì?</h2>
 <ul>
-<li><code>console.log()</code> in ra thông tin trên console trình duyệt.</li>
-<li>Chuỗi trong dấu ngoặc kép sẽ được hiển thị nguyên văn.</li>
-<li>Đây là cách bắt đầu học JavaScript.</li>
+<li>Tạo hiệu ứng và tương tác trên website</li>
+<li>Viết ứng dụng web (Facebook, YouTube, TikTok đều có JavaScript)</li>
+<li>Tạo game 2D và 3D chạy trên trình duyệt</li>
+<li>Xây server, API, backend (với Node.js)</li>
+<li>Phát triển ứng dụng điện thoại (React Native)</li>
 </ul>
-<pre><code>let name = "Alice";  // khai báo biến
+<h2>3. Đoạn code đầu tiên – Hello World</h2>
+<p>Dòng code này giúp bạn “nói chuyện” với máy tính và hiển thị nội dung ra console trình duyệt.</p>
+<pre><code>
+// In ra lời chào
+console.log("Hello, World!");
+</code></pre>
+<h3>Giải thích:</h3>
+<ul>
+<li>console.log() dùng để in thông tin ra bảng console dành cho lập trình viên</li>
+<li>Nội dung trong dấu ngoặc kép sẽ được hiển thị nguyên văn</li>
+<li>Đây là bước khởi đầu của mọi người khi học lập trình</li>
+</ul>
+<h2>4. Biến trong JavaScript</h2>
+<p>Biến dùng để lưu trữ dữ liệu và cho phép sử dụng lại trong chương trình.</p>
+<pre><code>
+let name = "Alice";   // khai báo biến
 console.log("Hello, " + name);
 </code></pre>
-<p><em>Giải thích:</em></p>
+<h3>Giải thích:</h3>
 <ul>
-<li><code>let</code> khai báo biến</li>
-<li>Toán tử + nối chuỗi</li>
-<li>Kết quả: Hello, Alice</li>
+<li>"let" dùng để khai báo biến</li>
+<li>Dấu "+" dùng để nối chuỗi văn bản</li>
+<li>Kết quả in ra: Hello, Alice</li>
 </ul>
+<h2>5. JavaScript có thể tương tác với trang web</h2>
+<p>Ví dụ dưới đây thay đổi màu nền trang:</p>
+<pre><code>
+// Đổi màu nền thành đen
+document.body.style.background = "#000";
+document.body.style.color = "#fff";
+
+// Trở về nền sáng
+document.body.style.background = "#fff";
+document.body.style.color = "#000";
+</code></pre>
+<p>Đoạn code này cho thấy JavaScript có thể thay đổi giao diện của trang ngay lập tức, không chỉ in văn bản đơn thuần.</p>
             ]]>
         </content>
     </entry>
